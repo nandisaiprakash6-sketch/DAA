@@ -1,0 +1,30 @@
+def insertion_sort(arr):
+    n = len(arr)
+
+    for i in range(1, n):
+        key = arr[i]
+        j = i - 1
+
+       
+        while j >= 0 and arr[j] > key:
+            arr[j + 1] = arr[j]
+            j -= 1
+
+        arr[j + 1] = key
+
+
+def print_array(arr):
+    print(*arr)
+
+
+n = int(input("Enter the size of the array: "))
+
+arr = list(map(int, input(f"Enter {n} elements: ").split()))
+
+print("\nOriginal Array:", end=" ")
+print_array(arr)
+
+insertion_sort(arr)
+
+print("Sorted Array:", end=" ")
+print_array(arr)
