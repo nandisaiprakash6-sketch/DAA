@@ -1,7 +1,0 @@
-This program optimally solves the Matrix Chain Multiplication problem using Dynamic Programming.
-
-It avoids brute force (which would be exponential).
-
-Instead, it builds solutions for smaller chains and combines them.
-
-The final answer is the minimum number of scalar multiplications required to multiply all matrices together.
