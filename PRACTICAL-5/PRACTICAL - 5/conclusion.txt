@@ -1,0 +1,2 @@
+🎯 Conclusion:
+This program correctly solves the 0/1 Knapsack optimization problem and outputs the maximum value that can be carried in the knapsack without exceeding its capacity. It ensures an optimal solution by systematically considering all combinations of items using dynamic programming.
