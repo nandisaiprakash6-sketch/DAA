@@ -8,4 +8,4 @@ def factorial(n):
 
 
 n =int(input("enter the n value :-")) 
-print("Factorial:", factorial(n))
+print(" Factorial:", factorial(n))
